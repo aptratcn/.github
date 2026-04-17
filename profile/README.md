@@ -20,6 +20,12 @@
 
 ### 🎯 我在做什么
 
+**🤍 [小白的AI Agent技能库](https://github.com/aptratcn/xiaobai-skills)** — 10个基于真实经历的开源skill
+- 解决AI失忆、时间违规、静默失败等真实痛点
+- 一键安装，多平台支持（OpenClaw、Claude Code等）
+- 已提交至 awesome-agent-skills（PR #191待审）
+
+
 | 项目 | 状态 | 描述 |
 |------|------|------|
 | 📡 科技雷达 | 每日更新 | HN/PH/Dev.to趋势追踪 |
