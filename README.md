@@ -45,3 +45,9 @@
 ---
 
 <p align="center"><b>All skills: zero dependencies • pure markdown • MIT licensed</b></p>
+
+### 🎨 Content & Marketing
+- [**Brand Voice**](https://github.com/aptratcn/skill-brand-voice) — 8-stage brand therapy, tone calibration, content templates
+- [**Social Growth**](https://github.com/aptratcn/skill-social-growth) — 8 platforms, viral mechanics, 0→10K growth playbook
+- [**Prompt Engineer**](https://github.com/aptratcn/skill-prompt-engineer) — 12 patterns, 50+ templates, A/B testing
+
