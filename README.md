@@ -7,6 +7,8 @@
 ### 🛡️ Security & Safety
 - [**Prompt Injection Guard**](https://github.com/aptratcn/prompt-guard) — Detect and resist prompt injection attacks
 - [**Cognitive Debt Guard**](https://github.com/aptratcn/cognitive-debt-guard) — Prevent AI-generated code incidents
+- [**MCP Security Audit**](https://github.com/aptratcn/skill-mcp-security-audit) — Audit MCP servers for exfiltration, injection, escalation
+- [**Git Secret Sweep**](https://github.com/aptratcn/skill-git-secret-sweep) — Scan repos for leaked secrets, API keys, tokens
 
 ### 🧠 Core Agent Patterns
 - [**EVR Framework**](https://github.com/aptratcn/evr-framework) — Execute-Verify-Report. Stop fake completions
@@ -41,6 +43,16 @@
 
 ### 🔧 Workflow
 - [**Xiaobai Workflow Enforcer**](https://github.com/aptratcn/xiaobai-workflow-enforcer) — Mandatory workflows for AI agents
+
+---
+
+### 🔌 MCP & Integration
+- [**MCP Builder**](https://github.com/aptratcn/skill-mcp-builder) — Build production-ready MCP servers
+- [**Session Context Bridge**](https://github.com/aptratcn/session-context-bridge) — Cross-session persistence with markdown
+- [**Agent SkillForge**](https://github.com/aptratcn/skill-agent-skillforge) — Self-evolving agent skill system
+- [**Workspace Agent**](https://github.com/aptratcn/skill-workspace-agent) — Enterprise team agent template
+- [**OpenClaw Context Optimizer**](https://github.com/aptratcn/openclaw-context-optimizer) — Fix long-session context loss
+- [**Output Optimizer**](https://github.com/aptratcn/output-optimizer) — Fix model output hangs and timeouts
 
 ---
 
