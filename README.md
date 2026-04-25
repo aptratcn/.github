@@ -4,6 +4,12 @@
 
 ---
 
+### ⚔️ [Claude Code Armory](https://github.com/aptratcn/claude-code-armory) — 46实战技能武器库
+
+**一键导航所有技能，解决AI Agent真实痛点：Token爆炸、上下文溢出、Prompt注入、静默错误**
+
+---
+
 ### 🛡️ Security & Safety
 - [**Prompt Injection Guard**](https://github.com/aptratcn/prompt-guard) ⭐ — Detect and resist prompt injection attacks
 - [**Cognitive Debt Guard**](https://github.com/aptratcn/cognitive-debt-guard) ⭐ — Prevent AI-generated code incidents
