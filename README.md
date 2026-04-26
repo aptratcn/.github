@@ -4,32 +4,38 @@
 
 ---
 
-### ⚔️ [Claude Code Armory](https://github.com/aptratcn/claude-code-armory) — 46实战技能武器库
+### ⚔️ [Claude Code Armory](https://github.com/aptratcn/claude-code-armory) — 48实战技能武器库
 
-**一键导航所有技能，解决AI Agent真实痛点：Token爆炸、上下文溢出、Prompt注入、静默错误**
+**一键导航所有技能，解决AI Agent真实痛点：Token爆炸、上下文溢出、Prompt注入、静默错误、生产事故**
 
 ---
 
-### 🛡️ Security & Safety
+### 🛡️ Security & Safety (⭐ = 已获星)
 - [**Prompt Injection Guard**](https://github.com/aptratcn/prompt-guard) ⭐ — Detect and resist prompt injection attacks
-- [**Cognitive Debt Guard**](https://github.com/aptratcn/cognitive-debt-guard) ⭐ — Prevent AI-generated code incidents
+- [**Cognitive Debt Guard**](https://github.com/aptratcn/cognitive-debt-guard) ⭐ — Prevent AI-generated code incidents (+23.5%)
+- [**Error Recovery**](https://github.com/aptratcn/skill-error-recovery) ⭐ — 4R framework: silent failures → smart recovery
 - [**MCP Security Audit**](https://github.com/aptratcn/skill-mcp-security-audit) — Audit MCP servers for exfiltration, injection, escalation
 - [**Git Secret Sweep**](https://github.com/aptratcn/skill-git-secret-sweep) — Scan repos for leaked secrets, API keys, tokens
-- [**LLM Data Sanitizer**](https://github.com/aptratcn/skill-llm-sanitizer) 🆕 — Strip PII, secrets, credentials before sending to LLMs
+- [**LLM Data Sanitizer**](https://github.com/aptratcn/skill-llm-sanitizer) — Strip PII, secrets, credentials before sending to LLMs
+- [**Dependency Guard**](https://github.com/aptratcn/skill-dependency-guard) — Scan npm/pip BEFORE install (supply chain security)
+- [**CI Security Gates**](https://github.com/aptratcn/skill-ci-security-gates) — 5 automated gates for every PR
 
-### 🧠 Core Agent Patterns
-- [**EVR Framework**](https://github.com/aptratcn/evr-framework) — Execute-Verify-Report. Stop fake completions
-- [**Systematic Debugging**](https://github.com/aptratcn/systematic-debugging) — 4-phase root cause analysis
-- [**Error Recovery**](https://github.com/aptratcn/skill-error-recovery) ⭐ — 4R framework: Recognize → Recover → Report → Reflect
-
-### 💰 Token & Context Optimization
+### 💰 Token & Cost Optimization
 - [**Token Budget Guard**](https://github.com/aptratcn/token-budget-guard) — 99% token savings via progressive disclosure
-- [**Context Doctor**](https://github.com/aptratcn/skill-context-doctor) 🆕 — Diagnose context bloat. Token cost + optimization
+- [**API Cost Tracker**](https://github.com/aptratcn/skill-api-cost-tracker) 🆕 — Track spend per task, model, project. Know your ROI
+- [**Context Doctor**](https://github.com/aptratcn/skill-context-doctor) — Diagnose context bloat. Token cost + optimization
 - [**Session Context Bridge**](https://github.com/aptratcn/session-context-bridge) — Cross-session persistence with markdown
+
+### 🚨 Incident & Debugging
+- [**Incident Response**](https://github.com/aptratcn/skill-incident-response) 🆕 — 6-phase protocol for AI-native production incidents
+- [**Systematic Debugging**](https://github.com/aptratcn/systematic-debugging) — 4-phase root cause analysis
+- [**EVR Framework**](https://github.com/aptratcn/evr-framework) — Execute-Verify-Report. Stop fake completions
 
 ### 🧰 Development Tools
 - [**Code Audit**](https://github.com/aptratcn/skill-code-audit) — 8-dimension codebase health audit
 - [**Skill Health Monitor**](https://github.com/aptratcn/skill-health-monitor) — Audit and score your skill collection
+- [**PR Reviewer**](https://github.com/aptratcn/skill-pr-reviewer) — 5-phase review for AI-generated code
+- [**Decision Grill**](https://github.com/aptratcn/skill-decision-grill) — Grill every technical decision until bulletproof
 - [**Cross-Tool Skill Sync**](https://github.com/aptratcn/cross-tool-skill-sync) — Write once, deploy everywhere
 
 ### ⚙️ DevOps & Infrastructure
@@ -41,7 +47,8 @@
 - [**Markdown Viz**](https://github.com/aptratcn/skill-markdown-viz) — ASCII/Unicode charts in any terminal
 
 ### 📋 Curated Lists
-- [**Awesome Zero-Dependency Skills**](https://github.com/aptratcn/awesome-zero-dependency-skills) — Curated list of pure markdown agent skills
+- [**Awesome Zero-Dependency Skills**](https://github.com/aptratcn/awesome-zero-dependency-skills) — Pure markdown agent skills
+- [**Claude Code Subagents**](https://github.com/aptratcn/awesome-claude-code-subagents) — 100+ specialized subagents
 
 ---
 
@@ -53,3 +60,4 @@
 ---
 
 <p align="center"><b>All skills: zero dependencies • pure markdown • MIT licensed</b></p>
+<p align="center"><b>48 skills solving real pain points: security, cost, errors, incidents</b></p>
