@@ -17,14 +17,22 @@
 | [**Prompt Guard**](https://github.com/aptratcn/prompt-guard) | ⭐ | Detect & resist prompt injection attacks |
 | [**Cognitive Debt Guard**](https://github.com/aptratcn/cognitive-debt-guard) | ⭐ | Prevent the 23.5% incident spike from AI code |
 | [**Error Recovery**](https://github.com/aptratcn/skill-error-recovery) | ⭐ | 4R framework: silent failures → smart recovery |
-| [**API Key Health Guard**](https://github.com/aptratcn/api-key-health-guard) | NEW | Monitor key leaks, expiration, rotation needs |
+| [**API Key Health Guard**](https://github.com/aptratcn/api-key-health-guard) | | Monitor key leaks, expiration, rotation needs |
 | [**Skill Audit**](https://github.com/aptratcn/skill-audit) | | Pre-install security scanner for 3rd-party skills |
 
-### 💰 Cost & Context
+### 💰 Cost & Token Control
 | Repo | What it does |
 |------|-------------|
-| [**Agent Cost Guard**](https://github.com/aptratcn/agent-cost-guard) | Stop surprise AI bills. Track, budget, optimize spending |
-| [**Session Checkpoint**](https://github.com/aptratcn/session-checkpoint) | NEW | Lightweight save points for crashed sessions |
+| [**Agent Cost Guard**](https://github.com/aptratcn/agent-cost-guard) | Stop surprise AI bills. Track, budget, optimize |
+| [**API Rate Guard**](https://github.com/aptratcn/skill-api-rate-guard) | 🆕 Prevent API rate limit bans. Multi-provider fallback |
+| [**Token Optimizer**](https://github.com/aptratcn/skill-token-optimizer) | 🆕 Reduce token consumption by 98%. Lazy-load, compress |
+| [**Claude Code Best Practices**](https://github.com/aptratcn/claude-code-best-practices) | 🆕 One file. 10 rules. Distilled from 60K+ stars |
+
+### 🧠 Memory & Context
+| Repo | What it does |
+|------|-------------|
+| [**Agent Memory**](https://github.com/aptratcn/skill-agent-memory) | 🆕 Cross-agent unified memory. Auto-persist decisions |
+| [**Session Checkpoint**](https://github.com/aptratcn/session-checkpoint) | Lightweight save points for crashed sessions |
 | [**Session Context Bridge**](https://github.com/aptratcn/session-context-bridge) | Never start from zero. Cross-session context |
 | [**EVR Framework**](https://github.com/aptratcn/evr-framework) | Execute-Verify-Report. Stop fake completions |
 
@@ -40,11 +48,25 @@
 
 ---
 
-### 🔥 Trending Insights (Apr 2026)
+### 🔥 Trending Insights (May 2026)
 
 **GitHub trending proves practical tools win:**
-- `free-claude-code` (+15K stars) — Cost control is #1 pain point
-- `mattpocock/skills` (+18K stars) — Zero-dependency skills dominate
-- `context-mode` (+2.3K stars) — Session persistence is emerging need
+- `free-claude-code` (+16K stars) — Cost control is #1 pain point
+- `mattpocock/skills` (+25K stars) — Small, composable skills dominate
+- `context-mode` (+2.2K stars) — Token optimization = 98% savings
+- `memsearch` (+220 stars) — Cross-agent memory is emerging need
+- `andrej-karpathy-skills` — One-file best practices trending
 
 **Our focus:** Security, cost, and reliability — the foundations that matter.
+
+---
+
+### 📊 Repository Stats
+
+| Category | Count | Focus Areas |
+|----------|-------|-------------|
+| Security & Safety | 5 | Prompt injection, error recovery, skill audit |
+| Cost & Token Control | 4 | Budget tracking, rate limits, token optimization |
+| Memory & Context | 4 | Cross-session persistence, decision memory |
+| Curated Lists | 8 | Awesome lists, skill directories |
+| **Total** | **52+** | Production-grade, zero-dependency |
