@@ -1,70 +1,73 @@
 <h1 align="center">🤖 aptratcn</h1>
-<p align="center"><b>Security-First Agent Skills</b></p>
+<p align="center"><b>Security-First + Efficiency-Optimized Agent Skills</b></p>
 <p align="center">Zero-dependency markdown skills for Claude Code, Cursor, OpenClaw, and any AI agent.</p>
-<p align="center"><b>Don't install blind. Guard before you trust.</b></p>
+<p align="center"><b>Don't install blind. Guard before you trust. Think in code, not in context.</b></p>
 
 ---
 
-## 🔒 Core Skills
+## 🔒 Security Stack
 
-| Repo | Description |
-|------|-------------|
-| [**Skill Audit**](https://github.com/aptratcn/skill-audit) | Pre-install security scanner. 7.5% of skills are malicious — audit first |
-| [**Install Guard**](https://github.com/aptratcn/skill-install-guard) | 🆕 Pre-install security for npm/pip. Typosquat + supply chain detection |
-| [**Hermes Billing Guard**](https://github.com/aptratcn/skill-hermes-billing-guard) | Detect silent billing routing bugs in Claude Code (HN 984pts) |
-| [**Prompt Guard**](https://github.com/aptratcn/prompt-guard) | Detect & resist prompt injection attacks. 4-layer defense |
-| [**MCP Security Audit**](https://github.com/aptratcn/skill-mcp-security-audit) | Audit MCP servers before trusting them |
-| [**Model Router**](https://github.com/aptratcn/skill-model-router) | Smart model selection. Route tasks to the right tier, slash costs 70% |
-| [**Token Optimizer**](https://github.com/aptratcn/skill-token-optimizer) | Reduce AI agent token consumption by 98%. Lazy loading + compression |
-| [**Error Doctor**](https://github.com/aptratcn/error-doctor) | Systematic error recovery. Stop burning tokens on blind retries |
-| [**Session Checkpoint**](https://github.com/aptratcn/session-checkpoint) | Save & restore agent context at critical moments |
-| [**Agent Memory**](https://github.com/aptratcn/skill-agent-memory) | Unified memory layer. Auto-persist, semantic search, cross-session recall |
+| Layer | Tool | Protects Against |
+|-------|------|-----------------|
+| Package install | [Install Guard](https://github.com/aptratcn/skill-install-guard) | Typosquat + supply chain |
+| Skill install | [Skill Audit](https://github.com/aptratcn/skill-audit) | Malicious skills (7.5% are bad) |
+| MCP connect | [MCP Security Audit](https://github.com/aptratcn/skill-mcp-security-audit) | Malicious MCP servers |
+| Runtime | [Prompt Guard](https://github.com/aptratcn/prompt-guard) | Prompt injection |
+| Billing | [Hermes Billing Guard](https://github.com/aptratcn/skill-hermes-billing-guard) | Hidden charges |
+
+---
+
+## ⚡ Efficiency Stack
+
+| Problem | Solution | Savings |
+|---------|----------|---------|
+| Context bloat from file reads | [Think in Code](https://github.com/aptratcn/skill-think-in-code) 🆕 | 50-700x |
+| Repeating past mistakes | [Decision Archaeology](https://github.com/aptratcn/skill-decision-archaeology) 🆕 | History informed |
+| Blind retries burn tokens | [Error Doctor](https://github.com/aptratcn/error-doctor) | Systematic recovery |
+| Wrong model for the task | [Model Router](https://github.com/aptratcn/skill-model-router) | 70% cost reduction |
 
 ---
 
 ## 📊 Why These Skills Matter
 
-**The numbers:**
-- **7.5% of 14,706 skills are malicious** (RankClaw audit, 2026)
-- **59 critical-risk droppers** found disguised as legitimate tools (Vett.sh)
-- **PyTorch Lightning compromised** via malicious dependency (Apr 2026)
+**Security:**
+- 7.5% of 14,706 skills are malicious (RankClaw audit)
+- 59 critical-risk droppers found by Vett.sh
+- PyTorch Lightning compromised via dependency (Apr 2026)
 
-**What malicious installs can do:**
-- 🔓 Leak your API keys (OpenAI, Anthropic, AWS, Stripe)
-- 💀 Execute arbitrary commands on your machine
-- 📤 Exfiltrate your source code
-- 🔄 Establish persistent backdoors
+**Efficiency:**
+- mattpocock/skills: **52,078 stars** — small skills beat big frameworks
+- context-mode: **11,693 stars** — sandbox tool output, 98% reduction
+- GenericAgent: **6x less tokens** — efficiency wins
 
 ---
 
-## 🛡️ Defense Stack
+## 🆕 Latest Skills (May 2026)
 
-```
-Package install → Install Guard → (pass) → Install → Prompt Guard (runtime)
-                   ↓
-                   (fail) → 🚫 Block
-```
+### [Think in Code](https://github.com/aptratcn/skill-think-in-code)
+> The LLM writes the script. The script processes the data. You read only the result.
+- **700x context savings** on data processing tasks
+- Script patterns catalog for common operations
+- Inspired by [context-mode](https://github.com/mksglu/context-mode) (11K stars)
 
-| Layer | Tool | Protects Against |
-|-------|------|-----------------|
-| **Package install** | [skill-install-guard](https://github.com/aptratcn/skill-install-guard) | Typosquat + supply chain |
-| **Skill install** | [skill-audit](https://github.com/aptratcn/skill-audit) | Malicious skills |
-| **MCP connect** | [skill-mcp-security-audit](https://github.com/aptratcn/skill-mcp-security-audit) | Malicious MCP servers |
-| **Runtime** | [prompt-guard](https://github.com/aptratcn/prompt-guard) | Prompt injection |
-| **Billing** | [skill-hermes-billing-guard](https://github.com/aptratcn/skill-hermes-billing-guard) | Hidden charges |
+### [Decision Archaeology](https://github.com/aptratcn/skill-decision-archaeology)
+> Every technical decision has ancestors. Find them before you repeat their mistakes.
+- 5-phase protocol: ADR search → Git history → Code patterns → Issues → External
+- Prevents repeating rejected decisions
+- ADR templates included
 
 ---
 
 ## 🔥 Trending Insights (May 2026)
 
-GitHub trending + HN proves practical tools win:
-- `mattpocock/skills` — **49,600+ stars, +6,187 today**. Small composable skills > big frameworks
-- `free-claude-code` — 19,200+ stars. Cost control is the #1 pain point
-- `GenericAgent` — 8,493 stars. Token efficiency = 6x less consumption
-- `opensre` — 4,080 stars. AI agents for incident response
-- HN 961pts: Claude Code billing bug when commits mention competitors
+| Project | Stars | Growth | Lesson |
+|---------|-------|--------|--------|
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 52K | +31K/week | Small, composable, practical |
+| [free-claude-code](https://github.com/Alishahryar1/free-claude-code) | 20K | +15K/week | Cost control = #1 pain point |
+| [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 59K | +6K/week | Multi-agent frameworks hot |
+| [context-mode](https://github.com/mksglu/context-mode) | 12K | +2K/week | Context optimization critical |
 
-**Our focus:** Security foundations + cost control that actually work.
+**Takeaway: Practical tools > Concept frameworks. Security + Efficiency = winning combo.**
 
 ---
 
@@ -73,6 +76,6 @@ GitHub trending + HN proves practical tools win:
 <p align="center">
 <a href="https://github.com/aptratcn/skill-audit">🔍 Skill Audit</a> •
 <a href="https://github.com/aptratcn/skill-install-guard">🛡️ Install Guard</a> •
-<a href="https://github.com/aptratcn/prompt-guard">🚫 Prompt Guard</a> •
-<a href="https://github.com/aptratcn/skill-hermes-billing-guard">💰 Billing Guard</a>
+<a href="https://github.com/aptratcn/skill-think-in-code">⚡ Think in Code</a> •
+<a href="https://github.com/aptratcn/skill-decision-archaeology">🏛️ Decision Archaeology</a>
 </p>
