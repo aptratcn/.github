@@ -52,6 +52,20 @@
 - Inspired by mattpocock's shared language + jcode's semantic memory
 - Includes analyze-project.sh script for automation
 
+### [Install Guard](https://github.com/aptratcn/skill-install-guard) 🆕
+> Stop typosquat and supply chain attacks before they hit your system.
+- 7.5% of 14,706 skills are malicious (RankClaw audit)
+- Blocks known malicious packages and typosquats
+- Zero dependencies, works with npm/yarn/pip
+
+### [Cognitive Debt Guard](https://github.com/aptratcn/cognitive-debt-guard) 🆕
+> Prevent the silent killer: code that works but no one understands.
+- 23.5% incident rate increase from AI-generated code (Cortex 2026)
+- 5 patterns that prevent cognitive debt accumulation
+- Includes real-world cases and comprehension gates
+
+---
+
 ### [Think in Code](https://github.com/aptratcn/skill-think-in-code)
 > The LLM writes the script. The script processes the data. You read only the result.
 - **700x context savings** on data processing tasks
@@ -76,6 +90,30 @@
 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 59K | +6K/week | Multi-agent frameworks hot |
 
 **Takeaway: Project memory + context optimization = biggest efficiency gains. Security + Efficiency = winning combo.**
+
+---
+
+## 📊 May 2026 Stats
+
+| Metric | Count |
+|--------|-------|
+| Total repositories | 61+ |
+| Total stars | Growing daily |
+| New this month | 3 skills |
+
+---
+
+## 🎯 Currently Focused On
+
+**Agent Security Defense** — Protecting AI agents from malicious inputs and supply chain attacks
+- Typosquat detection (7.5% of skills are malicious)
+- Prompt injection prevention
+- Cognitive debt prevention (23.5% incident spike)
+
+**Token Optimization** — Making agents more efficient
+- Model routing for 70% cost savings
+- Context compression (50-700x reduction)
+- Project knowledge auto-generation
 
 ---
 
