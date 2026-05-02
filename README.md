@@ -12,7 +12,7 @@
 | Package install | [Install Guard](https://github.com/aptratcn/skill-install-guard) | Typosquat + supply chain |
 | Skill install | [Skill Audit](https://github.com/aptratcn/skill-audit) | Malicious skills (7.5% are bad) |
 | MCP connect | [MCP Security Audit](https://github.com/aptratcn/skill-mcp-security-audit) | Malicious MCP servers |
-| Runtime | [Prompt Guard](https://github.com/aptratcn/prompt-guard) | Prompt injection |
+| Runtime | [Prompt Guard](https://github.com/aptratcn/prompt-guard) ⭐ | Prompt injection |
 | Billing | [Hermes Billing Guard](https://github.com/aptratcn/skill-hermes-billing-guard) | Hidden charges |
 
 ---
@@ -21,6 +21,7 @@
 
 | Problem | Solution | Savings |
 |---------|----------|---------|
+| Agents waste 30-50% context understanding codebase | [Project Knowledge](https://github.com/aptratcn/skill-project-knowledge) 🆕 | Instant onboarding |
 | Context bloat from file reads | [Think in Code](https://github.com/aptratcn/skill-think-in-code) 🆕 | 50-700x |
 | Repeating past mistakes | [Decision Archaeology](https://github.com/aptratcn/skill-decision-archaeology) 🆕 | History informed |
 | Blind retries burn tokens | [Error Doctor](https://github.com/aptratcn/error-doctor) | Systematic recovery |
@@ -36,13 +37,20 @@
 - PyTorch Lightning compromised via dependency (Apr 2026)
 
 **Efficiency:**
-- mattpocock/skills: **52,078 stars** — small skills beat big frameworks
+- mattpocock/skills: **52,639 stars** — shared language is #1 productivity booster
+- jcode: **2,380 stars** — semantic memory is killer feature (+403/day)
 - context-mode: **11,693 stars** — sandbox tool output, 98% reduction
 - GenericAgent: **6x less tokens** — efficiency wins
 
 ---
 
 ## 🆕 Latest Skills (May 2026)
+
+### [Project Knowledge](https://github.com/aptratcn/skill-project-knowledge) 🆕
+> Auto-generate a structured CONTEXT.md from codebase analysis.
+- **30-50% fewer** "what does this file do?" questions
+- Inspired by mattpocock's shared language + jcode's semantic memory
+- Includes analyze-project.sh script for automation
 
 ### [Think in Code](https://github.com/aptratcn/skill-think-in-code)
 > The LLM writes the script. The script processes the data. You read only the result.
@@ -62,20 +70,20 @@
 
 | Project | Stars | Growth | Lesson |
 |---------|-------|--------|--------|
-| [mattpocock/skills](https://github.com/mattpocock/skills) | 52K | +31K/week | Small, composable, practical |
-| [free-claude-code](https://github.com/Alishahryar1/free-claude-code) | 20K | +15K/week | Cost control = #1 pain point |
+| [mattpocock/skills](https://github.com/mattpocock/skills) | 52K | +3,645/day | Shared language = productivity |
+| [jcode](https://github.com/1jehuang/jcode) | 2.4K | +403/day | Semantic memory is killer feature |
+| [browserbase/skills](https://github.com/browserbase/skills) | 1.2K | +334/day | Browser automation hot |
 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 59K | +6K/week | Multi-agent frameworks hot |
-| [context-mode](https://github.com/mksglu/context-mode) | 12K | +2K/week | Context optimization critical |
 
-**Takeaway: Practical tools > Concept frameworks. Security + Efficiency = winning combo.**
+**Takeaway: Project memory + context optimization = biggest efficiency gains. Security + Efficiency = winning combo.**
 
 ---
 
-<p align="center"><b>Zero dependencies • Pure markdown • MIT licensed</b></p>
+<p align="center"><b>61 skills • Zero dependencies • Pure markdown • MIT licensed</b></p>
 
 <p align="center">
 <a href="https://github.com/aptratcn/skill-audit">🔍 Skill Audit</a> •
 <a href="https://github.com/aptratcn/skill-install-guard">🛡️ Install Guard</a> •
-<a href="https://github.com/aptratcn/skill-think-in-code">⚡ Think in Code</a> •
-<a href="https://github.com/aptratcn/skill-decision-archaeology">🏛️ Decision Archaeology</a>
+<a href="https://github.com/aptratcn/skill-project-knowledge">🧠 Project Knowledge</a> •
+<a href="https://github.com/aptratcn/skill-think-in-code">⚡ Think in Code</a>
 </p>
