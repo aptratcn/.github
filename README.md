@@ -46,6 +46,24 @@
 
 ## 🆕 Latest Skills (May 2026)
 
+### [Token Filter](https://github.com/aptratcn/skill-token-filter) 🆕🔥
+> Reduce AI Agent token consumption by 60-90% on command outputs.
+- Inspired by [rtk](https://github.com/rtk-ai/rtk) (40K★) but **zero dependencies, pure markdown**
+- Filter git, test, docker, kubectl output automatically
+- Typical daily savings: 78% (100K → 22K tokens)
+
+### [Memory Layer](https://github.com/aptratcn/skill-memory-layer) 🆕
+> L0-L4 layered memory template for AI agents.
+- Standardized memory architecture from GenericAgent (8.8K★)
+- 5 template files included, ready to use
+- 50K token savings per month on typical projects
+
+### [Awesome Cost Optimization](https://github.com/aptratcn/awesome-agent-cost-optimization) 🆕
+> Curated list of tools to reduce AI Agent API costs by 60-90%.
+- 70+ tools: token filters, model routing, memory systems
+- Benchmark data from rtk, manifest, GenericAgent
+- Strategy guide: achieve 70-90% total savings
+
 ### [Project Knowledge](https://github.com/aptratcn/skill-project-knowledge) 🆕
 > Auto-generate a structured CONTEXT.md from codebase analysis.
 - **30-50% fewer** "what does this file do?" questions
@@ -89,7 +107,7 @@
 | [browserbase/skills](https://github.com/browserbase/skills) | 1.2K | +334/day | Browser automation hot |
 | [TradingAgents](https://github.com/TauricResearch/TradingAgents) | 59K | +6K/week | Multi-agent frameworks hot |
 
-**Takeaway: Project memory + context optimization = biggest efficiency gains. Security + Efficiency = winning combo.**
+**Takeaway: Token optimization + memory layer = #1 efficiency gains (rtk 40K★, claude-mem 71K★). Security + Efficiency = winning combo.**
 
 ---
 
@@ -97,9 +115,10 @@
 
 | Metric | Count |
 |--------|-------|
-| Total repositories | 61+ |
+| Total repositories | 64+ |
 | Total stars | Growing daily |
-| New this month | 3 skills |
+| New this month | 6 skills |
+| Latest additions | Token Filter, Memory Layer, Cost Optimization List |
 
 ---
 
@@ -117,11 +136,12 @@
 
 ---
 
-<p align="center"><b>61 skills • Zero dependencies • Pure markdown • MIT licensed</b></p>
+<p align="center"><b>64 skills • Zero dependencies • Pure markdown • MIT licensed</b></p>
 
 <p align="center">
+<a href="https://github.com/aptratcn/skill-token-filter">🎯 Token Filter</a> •
+<a href="https://github.com/aptratcn/skill-memory-layer">🧠 Memory Layer</a> •
 <a href="https://github.com/aptratcn/skill-audit">🔍 Skill Audit</a> •
 <a href="https://github.com/aptratcn/skill-install-guard">🛡️ Install Guard</a> •
-<a href="https://github.com/aptratcn/skill-project-knowledge">🧠 Project Knowledge</a> •
-<a href="https://github.com/aptratcn/skill-think-in-code">⚡ Think in Code</a>
+<a href="https://github.com/aptratcn/awesome-agent-cost-optimization">🪙 Cost Optimization</a>
 </p>
