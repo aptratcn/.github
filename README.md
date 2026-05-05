@@ -11,8 +11,8 @@
 |-------|------|-----------------|
 | Package install | [Install Guard](https://github.com/aptratcn/skill-install-guard) | Typosquat + supply chain |
 | Skill install | [Skill Audit](https://github.com/aptratcn/skill-audit) | Malicious skills (7.5% are bad) |
-| MCP connect | [MCP Security Audit](https://github.com/aptratcn/skill-mcp-security-audit) | Malicious MCP servers |
-| MCP runtime | [MCP Debugger](https://github.com/aptratcn/skill-mcp-debugger) 🆕 | Broken MCP connections |
+| MCP connect | [MCP Supply Chain Guard](https://github.com/aptratcn/mcp-supply-chain-guard) 🆕 | Zero-dep MCP scanner |
+| MCP runtime | [MCP Debugger](https://github.com/aptratcn/skill-mcp-debugger) | Broken MCP connections |
 | Runtime | [Prompt Guard](https://github.com/aptratcn/prompt-guard) ⭐ | Prompt injection |
 | Billing | [Hermes Billing Guard](https://github.com/aptratcn/skill-hermes-billing-guard) | Hidden charges |
 
@@ -24,9 +24,11 @@
 |---------|----------|---------|
 | Agents waste 30-50% context understanding codebase | [Project Knowledge](https://github.com/aptratcn/skill-project-knowledge) | Instant onboarding |
 | Context bloat from file reads | [Think in Code](https://github.com/aptratcn/skill-think-in-code) | 50-700x |
-| Prompt changes break behaviors | [Prompt Regression](https://github.com/aptratcn/skill-prompt-regression) 🆕 | Quality assurance |
+| Context window forced compression | [Context Budget Guard](https://github.com/aptratcn/skill-context-budget) 🆕 | Proactive monitoring |
+| Prompt changes break behaviors | [Prompt Regression](https://github.com/aptratcn/skill-prompt-regression) | Quality assurance |
 | Blind retries burn tokens | [Error Doctor](https://github.com/aptratcn/error-doctor) | Systematic recovery |
 | Wrong model for the task | [Model Router](https://github.com/aptratcn/skill-model-router) | 70% cost reduction |
+| Unknown session costs | [Session Cost Monitor](https://github.com/aptratcn/session-cost-monitor) 🆕 | Real-time tracking |
 
 ---
 
@@ -46,17 +48,23 @@
 
 ## 🆕 Latest Skills (May 2026)
 
-### [MCP Debugger](https://github.com/aptratcn/skill-mcp-debugger) 🆕
-> Debug, test, and troubleshoot MCP servers. 5-phase diagnostic workflow.
-- Connection → Schema → Test → Failure patterns → Performance
-- 10 common failure patterns with fixes
-- Zero dependencies
+### [MCP Supply Chain Guard](https://github.com/aptratcn/mcp-supply-chain-guard) 🆕
+> Zero-dep security scanner for MCP server configs. Detect supply chain risks before you connect.
+- Typosquatting detection, external endpoint flags, lifecycle scripts
+- Suspicious TLD analysis (.tk, .ml, .xyz)
+- One shell script, runs in milliseconds
 
-### [Prompt Regression Tester](https://github.com/aptratcn/skill-prompt-regression) 🆕
-> Test prompts for regression after changes. Catch quality drops before production.
-- 8 test categories: code quality, security, edge cases...
-- Decision gates: ship or block based on score change
-- YAML-based test suites
+### [Session Cost Monitor](https://github.com/aptratcn/session-cost-monitor) 🆕
+> Know what your AI coding sessions cost. Works with Claude Code & Codex CLI.
+- Parse agent logs, see real-time costs
+- Budget alerts before it's too late
+- Shell script, zero dependencies
+
+### [Context Budget Guard](https://github.com/aptratcn/skill-context-budget) 🆕
+> Prevent session compression from losing critical context.
+- 70% warning threshold, 90% critical alert
+- Preserve patterns for key decisions/files
+- Pure markdown skill, zero dependencies
 
 ### [Token Filter](https://github.com/aptratcn/skill-token-filter) 🔥
 > Reduce AI Agent token consumption by 60-90% on command outputs.
@@ -87,33 +95,34 @@
 
 | Metric | Count |
 |--------|-------|
-| Total repositories | 81 |
-| Total stars | 3 (proving practicality wins) |
-| New this month | 8 skills |
-| Open PRs | 10 awaiting review |
+| Total repositories | 20 |
+| Total stars | Growing |
+| New this week | 3 skills |
+| Focus | Security + Cost + Context |
 
 ---
 
 ## 🎯 Focus Areas
 
-**Agent Infrastructure Health**
-- MCP debugging (new skill)
-- Prompt quality assurance (new skill)
-- Session crash recovery
+**Agent Security**
+- MCP supply chain scanning (new skill)
+- Package install guards
+- Typosquat detection
 
-**Cost Efficiency**
+**Cost & Context Management**
+- Session cost monitoring (new skill)
+- Context budget guard (new skill)
 - Token filtering (60-90% savings)
 - Model routing (70% cost reduction)
-- Context optimization
 
 ---
 
-<p align="center"><b>81 skills • Zero dependencies • Pure markdown • MIT licensed</b></p>
+<p align="center"><b>20 skills • Zero dependencies • Pure markdown • MIT licensed</b></p>
 
 <p align="center">
-<a href="https://github.com/aptratcn/skill-mcp-debugger">🔧 MCP Debugger</a> •
-<a href="https://github.com/aptratcn/skill-prompt-regression">🧪 Prompt Regression</a> •
-<a href="https://github.com/aptratcn/skill-token-filter">🎯 Token Filter</a> •
+<a href="https://github.com/aptratcn/mcp-supply-chain-guard">🛡️ MCP Scanner</a> •
+<a href="https://github.com/aptratcn/session-cost-monitor">💰 Cost Monitor</a> •
+<a href="https://github.com/aptratcn/skill-context-budget">🎯 Context Budget</a> •
 <a href="https://github.com/aptratcn/skill-audit">🔍 Skill Audit</a> •
 <a href="https://github.com/aptratcn/awesome-agent-cost-optimization">🪙 Cost Optimization</a>
 </p>
